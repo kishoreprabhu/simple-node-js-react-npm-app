@@ -1,4 +1,9 @@
 pipeline {
+    agent {
+        docker {
+            
+        }
+    }
     environment {
         CI = 'true'
     }
